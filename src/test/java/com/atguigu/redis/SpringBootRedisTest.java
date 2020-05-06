@@ -18,6 +18,6 @@ public class SpringBootRedisTest {
         public  void  testRedisTemplate(){
     ValueOperations operations = redisTemplate.opsForValue();
     operations.set("hello", "hello-value");}
-
+//tmp
 
 }
